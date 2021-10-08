@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#page-top">Prácticas | Calculadora</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/3startbootstrap-grayscale-gh-pages/Cambios2907/index.html">Página Principal</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Calculadora -->
+    <div id="calculadora" class="justify-content-center">
+        <div id="grid" class="bg-warning"> 
+            
+            <div class="d-flex align-items-center flex-column bd-highlight mb-3">
+                <label for="txt-numero" id="lbl-numero">Ingrese un número ;)</label>
+                <input type="text" id="txt-numero" value="" class="bg-light">
+                    <div class="position-relative">
+                        <span class="position-absolute top-100 start-50 translate-middle badge rounded-pill bg-black" type="button" id="lbl-signo">
+                            signo
+                        </span>
+                   </div>
+            </div>
+                    
+            <div id="botones container">   
+                
+                <div class= "row d-flex mb-1 justify-content-md-evenly">
+                    <input type="button" class="button" value="In" id="btn-in">
+                    <input type="button" class="button" value="AC" id="btn-ac">
+                    <!-- boton AC: limpiar completamente la casilla ;) --->
+                    <input type="button" class="button" value="Ans" id="btn-ans">
+                    <input type="button" class="button" value="CE" id="btn-clear">
+                </div>
+
+                <div class= "row d-flex mb-1 justify-content-evenly">
+                    <input type="button" class="button" value="%" id="btn-porcentaje">
+                    <input type="button" class="button" value="7" id="btn-7">
+                    <input type="button" class="button" value="8" id="btn-8">
+                    <input type="button" class="button" value="9" id="btn-9">
+                    <input type="button" class="button" value="÷" id="btn-divi">   
+                </div>
+
+                <div class= "row d-flex mb-1 justify-content-evenly">
+                    <input type="button" class="button" value="log" id="btn-log">
+                    <input type="button" class="button" value="6" id="btn-6">
+                    <input type="button" class="button" value="5" id="btn-5">
+                    <input type="button" class="button" value="4" id="btn-4">
+                    <input type="button" class="button" value="x" id="btn-multi">
+                </div>
+
+                <div class="row d-flex mb-1 justify-content-evenly">
+                    <input type="button" class="button" value="√" id="btn-raiz">
+                    <input type="button" class="button" value="3" id="btn-3">
+                    <input type="button" class="button" value="2" id="btn-2">
+                    <input type="button" class="button" value="1" id="btn-1">
+                    <input type="button" class="button" value="-" id="btn-resta">
+                </div>
+                        
+                <div class="row d-flex mb-1 justify-content-evenly">
+                    <input type="button" class="button" value="x²" id="btn-cuadrado">
+                    <input type="button" class="button" value="0" id="btn-0">
+                    <input type="button" class="button" value="." id="btn-punto">
+                    <input type="button" class="button" value="=" id="btn-igual">
+                    <input type="button" class="button" value="+" id="btn-suma">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+<!-- Footer-->
+<footer class="footer bg-black small text-center text-white-50">
+            
+    <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 5</a>
+    <div class="container px-4 px-lg-5">Copyright &copy; Your Website 2021</div> 
+    <div id="autor" class="container px-4 px-lg-5 text-white">Made by: <a href="https://github.com/SofiaF26" title="Sofía Fuentes">Sofía Fuentes</a></div>
+
+</footer>
+
+<link href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">
+</html>
